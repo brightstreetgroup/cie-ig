@@ -1,0 +1,16 @@
+[
+  {
+    "id" : "cie.fhir.ig",
+    "type" : "ImplementationGuide",
+    "url" : "https://directory.mi-cie.org/cie/fhir/ig/ImplementationGuide/cie.fhir.ig",
+    "version" : "0.1.0",
+    "name" : "cieig"
+  },
+  {
+    "id" : "MyPatient",
+    "type" : "StructureDefinition",
+    "url" : "https://directory.mi-cie.org/cie/fhir/ig/StructureDefinition/MyPatient",
+    "version" : "0.1.0",
+    "name" : "MyPatient"
+  }
+]

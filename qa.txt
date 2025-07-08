@@ -1,0 +1,21 @@
+cieig : Validation Results
+=========================================
+
+err = 0, warn = 5, info = 1
+IG Publisher Version: 2.0.8
+Generated Tue Jul 08 19:32:06 EDT 2025. FHIR version 4.0.1 for cie.fhir.ig#0.1.0 (canonical = https://directory.mi-cie.org/cie/fhir/ig)
+ Build Errors : 0 / 4 / 0
+ /home/sween/Desktop/BSG/cie-ig/fsh-generated/resources/ImplementationGuide-cie.fhir.ig : 0 / 1 / 1
+ /home/sween/Desktop/BSG/cie-ig/fsh-generated/resources/Patient-PatientExample : 0 / 0 / 1
+ /home/sween/Desktop/BSG/cie-ig/fsh-generated/resources/StructureDefinition-MyPatient : 0 / 0 / 2
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/ImplementationGuide-cie.fhir.ig.json ==
+WARNING: ImplementationGuide/cie.fhir.ig: ImplementationGuide: Constraint failed: ig-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation'
+== fsh-generated/resources/Patient-PatientExample.json ==
+== fsh-generated/resources/StructureDefinition-MyPatient.json ==
+INFORMATION: StructureDefinition/MyPatient: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
